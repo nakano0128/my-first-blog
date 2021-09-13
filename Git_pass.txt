@@ -1,0 +1,39 @@
+メール
+jninet@pop12.odn.ne.jp
+Pass
+Ashika0128
+Name
+nakano0128
+
+
+name/Pass gitと同じ
+https://www.pythonanywhere.com/user/nakano0128/
+
+APIトークン
+8b75ad832ee309cd8a1c476d91b5e90a7972667c
+
+
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+仮想環境へ移行
+C:\Users\Name\djangogirls > myvenv\Scripts\activate
+
+プロジェクトの作成
+C:\Users\Name\djangogirls> django-admin.exe startproject mysite .   (だめ？　下記でOK)
+py -m django startproject mysite .
+
+
+python manage.py startapp blog
+
+python manage.py makemigrations blog
+
+python manage.py migrate blog
+
+python manage.py createsuperuser
+
+ユーザ　naknao
+test@ex.com
+pass Ashika0128
+
+https://tutorial.djangogirls.org/ja/django_admin/
+次デプロイ
+
